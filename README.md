@@ -57,3 +57,23 @@ FROM ML.PREDICT(
     SELECT 5 AS employee_id, 3 AS years_at_company
   )
 );
+
+```
+
+## Key Learnings
+
+- Learned how to use **BigQuery ML** to train machine learning models directly using SQL without writing Python code.
+- Understood **logistic regression** for binary classification problems such as employee churn prediction.
+- Practiced the complete ML workflow in BigQuery using:
+  - `CREATE MODEL` to train a model
+  - `ML.EVALUATE` to assess model performance
+  - `ML.PREDICT` to generate batch predictions
+- Gained hands-on experience with **batch prediction** for business decision-making use cases.
+
+
+## Results
+
+Below are the evaluation metrics obtained after training and evaluating the model using BigQuery ML.
+
+![Screenshot_20-12-2025_2147_github com](https://github.com/user-attachments/assets/5f4795ef-09cf-4b2e-bc63-e47b83031771)
+
